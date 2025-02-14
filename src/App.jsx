@@ -27,7 +27,7 @@ function App() {
     {
       id: 2,
       image: "/images/2.jpg",
-      title: "",
+      title: "SWEET LIKE ICE CREAM",
       date: "May 15th, 2024",
       description:
         "It had been a couple months since we started dating, and life was just so good. Every day I counted down the days I could see you again. Every adventure we went on felt like it was straight out of a movie. Even the smallest things like getting ice cream in the middle of nowhere was a dream come true with you",
