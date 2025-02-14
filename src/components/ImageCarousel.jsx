@@ -7,17 +7,17 @@ function ImageCarousel() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const images = [
-    { src: "src/assets/images/kissy.jpg", caption: "when you kissy" },
-    { src: "src/assets/images/cute.jpg", caption: "when you cute" },
-    { src: "src/assets/images/sad.jpg", caption: "when you sad" },
-    { src: "src/assets/images/squish.jpg", caption: "when you squish" },
-    { src: "src/assets/images/stressy.jpg", caption: "when you stressy" },
-    { src: "src/assets/images/sweet.jpg", caption: "when you sweet" },
-    { src: "src/assets/images/eepy.jpg", caption: "when you eepy" },
-    { src: "src/assets/images/giggly.jpg", caption: "when you giggly" },
-    { src: "src/assets/images/hungy.jpg", caption: "when you hungy" },
-    { src: "src/assets/images/silly.jpg", caption: "when you silly" },
-    { src: "src/assets/images/slay.jpg", caption: "when you slay" },
+    { src: "/images/kissy.jpg", caption: "when you kissy" },
+    { src: "/images/cute.jpg", caption: "when you cute" },
+    { src: "/images/sad.jpg", caption: "when you sad" },
+    { src: "/images/squish.jpg", caption: "when you squish" },
+    { src: "/images/stressy.jpg", caption: "when you stressy" },
+    { src: "/images/sweet.jpg", caption: "when you sweet" },
+    { src: "/images/eepy.jpg", caption: "when you eepy" },
+    { src: "/images/giggly.jpg", caption: "when you giggly" },
+    { src: "/images/hungy.jpg", caption: "when you hungy" },
+    { src: "/images/silly.jpg", caption: "when you silly" },
+    { src: "/images/slay.jpg", caption: "when you slay" },
   ];
 
   const nextSlide = () => {

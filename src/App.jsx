@@ -101,7 +101,7 @@ function App() {
   const audioRef = useRef(null);
 
   useEffect(() => {
-    audioRef.current = new Audio("src/assets/audio/BestPart.mp3");
+    audioRef.current = new Audio("/audio/BestPart.mp3");
     audioRef.current.loop = true;
     audioRef.current.volume = volume;
 
