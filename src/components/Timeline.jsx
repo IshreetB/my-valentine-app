@@ -32,8 +32,8 @@ function Timeline({ memories }) {
       day: "numeric",
     }),
     description:
-      "And our story continues to unfold, with each day bringing new adventures and memories to cherish...",
-    image: "/path/to/today-image.jpg",
+      "And that brings us to today. It's been a crazy journey, with a lot of ups and downs, but we've stuck by each other the whole ride. You've been my partner, my lover, my rock, and most importantly my best friend. I hope we can eventually spend more of our days together, laughing and smiling in each others arms, but until then I'm happy for what we have. I love you so dearly, endlessly and wholeheartedly. You are mine, and I am yours. I love you bebo.",
+    image: "/images/9.jpg",
   };
 
   return (
@@ -51,7 +51,7 @@ function Timeline({ memories }) {
       {/* The vertical line */}
       <motion.div
         initial={{ height: 0 }}
-        whileInView={{ height: "78%" }}
+        whileInView={{ height: "87%" }}
         viewport={{ once: true }}
         transition={{
           delay: 1.8,
@@ -181,7 +181,7 @@ function Timeline({ memories }) {
               <div className="bg-white p-4 pb-16 rounded-2xl shadow-xl">
                 <div className="aspect-square overflow-hidden rounded-xl">
                   <img
-                    src="/path/to/today-image.jpg"
+                    src="/images/9.jpg"
                     alt="Today"
                     className="w-full h-full object-cover"
                   />
@@ -190,8 +190,14 @@ function Timeline({ memories }) {
                   Today
                 </h3>
                 <p className="text-sm md:text-base text-gray-600 leading-snug line-clamp-2 italic">
-                  And our story continues to unfold, with each day bringing new
-                  adventures and memories to cherish...
+                  And that brings us to today. It's been a crazy journey, with a
+                  lot of ups and downs, but we've stuck by each other the whole
+                  ride. You've been my partner, my lover, my rock, and most
+                  importantly my best friend. I hope we can eventually spend
+                  more of our days together, laughing and smiling in each others
+                  arms, but until then I'm happy for what we have. I love you so
+                  dearly, endlessly and wholeheartedly. You are mine, and I am
+                  yours. I love you bebo.
                 </p>
               </div>
             </motion.div>

@@ -30,9 +30,7 @@ function App() {
       title: "",
       date: "May 15th, 2024",
       description:
-        "At this point I couldn't wait until the next time I saw you again. Every adventure we went \
-        on felt like it was straight out of a movie. Even the smallest things like getting ice cream in the middle \
-        of nowhere was a dream come true with you",
+        "It had been a couple months since we started dating, and life was just so good. Every day I counted down the days I could see you again. Every adventure we went on felt like it was straight out of a movie. Even the smallest things like getting ice cream in the middle of nowhere was a dream come true with you",
     },
     {
       id: 3,
@@ -40,9 +38,7 @@ function App() {
       title: "The Fanciest of Fancy Dinners",
       date: "June 10th, 2024",
       description:
-        "I know it was important for you to feel like you're getting spoiled and I'm sorry it took that long, \
-        but I really did the best I could. You looked fantastic in that dress, I can't wait to see you in \
-        it again! Maybe not at that place though, the lamb was kind of cold 6/10",
+        "I know it was important for you to feel like you're getting spoiled and I'm sorry it took that long, but I really did the best I could. You looked fantastic in that dress, I can't wait to see you in it again! Maybe not at that place though, the lamb was kind of cold 6/10",
     },
     {
       id: 4,
@@ -50,10 +46,7 @@ function App() {
       title: "AHHHHHHHHHHH",
       date: "June 15th, 2024",
       description:
-        "This one was kind of for me, lol. I know you don't like scary rides babe, but it meant so much that\
-        you came with me anyways. I'm so proud of you for getting through it like the champ you are! Though,\
-        I shouldn't really be surprised. Every challenge I've seen you face, you've always been so strong\
-        and brave"
+        "Okay yeah, this one was more for me, but I'm glad you said yes to the adventure! I know you don't really like scary rides, but you were such a soldier about it. Seeing you overcome your fears and ending up enjoying the rides made me so proud to call you my bebo",
     },
     {
       id: 5,
@@ -61,10 +54,7 @@ function App() {
       title: "ZOOOOOOOOM",
       date: "July 16th, 2024",
       description:
-        "This was honestly kind of crazy, I never drove that far before, especially not in a \
-        storm. Even though you were a wittle scared and I was a wittle tired, I took comfort in \
-        the fact I had you by my side. We picked each other up when the other was struggling, and \
-        I genuinely couldn't have done it without you",
+        "This was honestly kind of crazy, I never drove that far before, especially not in a storm. Even though you were a wittle scared and I was a wittle tired, it made me feel better know you were there by my side, and I was by yours. Couldn't have done it without you :)",
     },
     {
       id: 6,
@@ -72,26 +62,31 @@ function App() {
       title: "Say CHEEEEESEE",
       date: "July 19th, 2024",
       description:
-        "That whole Vancouver trip, you were really glowing. I rememeber there were times I couldn't \
-        take my eyes off you. Your pretty face and that beautiful smile made every day worth living. \
-        Maybe that trip wasn't the best, but seeing your smile made everything okay. I hope we can \
-        smiling as we go on more and more adventures together",
+        "That whole Vancouver trip, you were really glowing. I remember there were times I couldn't take my eyes off you. Your pretty face and that beautiful smile made every day worth living. Maybe that trip wasn't the best, but seeing your smile made everything okay. I hope we can smiling as we go on more and more adventures together",
     },
     {
       id: 7,
-      image: "/path/to/image6.jpg",
-      title: "ZOOOOOOOOM",
-      date: "July 16th, 2024",
+      image: "/images/7.jpg",
+      title: "SO SADGE",
+      date: "July 28th, 2024",
       description:
-        "This was honestly kind of crazy, I never drove that far before, especially not in a storm. Even though you were a wittle scared and I was a wittle tired, I took comfort in the fact I had you by my side. We picked each other up when the other was struggling, and I genuinely couldn't have done it without you",
+        "I'd be lying if I said my heart didn't break here a little. Airport send offs are always sad and we both put on our brave faces on knowing it would be harder from here on out. I didn't want to let you go, but I knew I couldn't do anything then to bridge our gap. Idk man I'm getting sad just writing this",
     },
     {
       id: 8,
-      image: "/path/to/image5.jpg",
-      title: "ZOOOOOOOOM",
-      date: "July 17th, 2024",
+      image: "/images/6.jpg",
+      title: "BEBO'S BACK BEBO'S BACK",
+      date: "October 25th, 2024",
       description:
-        "This was honestly kind of crazy, I never drove that far before, especially not in a storm. Even though you were a wittle scared and I was a wittle tired, I took comfort in the fact I had you by my side. We picked each other up when the other was struggling, and I genuinely couldn't have done it without you",
+        "When I tell you how excited I was to see you again HOLY. It had been almost 3 months since I last got to hold you and I couldn't believe I would get to do it again. You came back prettier than ever and I was still in awe every day. I wish we had more time, but with your graduation, seeing your friends and going back to school, I would just have to tough it out ://",
+    },
+    {
+      id: 9,
+      image: "/images/8.jpg",
+      title: "CHRISTMAS TIME WITH MY LOVELY",
+      date: "December 15th, 2024",
+      description:
+        "This was what? 2 months after? Crazy to see how much had changed in both our lives. You were slowly adjusting to your city, and I wasn't unemployed (crazy). Coming down to see you was worth that grueling drive. Sorry we were a little stressy for the trip, but having you there in my arms, made every moment such a joy :) ",
     },
   ];
 
