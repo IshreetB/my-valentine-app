@@ -140,7 +140,7 @@ function ValentineSection() {
               transition={{ delay: 3 }}
               className="text-2xl font-bold text-transparent bg-gradient-to-b bg-clip-text from-red-500 to-pink-400"
             >
-              I LOVE YOU TOO HERE
+              I LOVE YOU TOO HEHE
             </motion.p>
           </div>
         )}
