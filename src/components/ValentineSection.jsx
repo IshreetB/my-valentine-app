@@ -66,7 +66,7 @@ function ValentineSection() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
-        transition={{ duration: 2.5 }}
+        transition={{ delay: 2, duration: 4 }}
         onAnimationComplete={() => setShowButtons(true)}
         className="text-5xl font-extrabold lg:text-7xl 2xl:text-8xl px-4 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
       >
@@ -98,7 +98,7 @@ function ValentineSection() {
               className="px-12 py-3 bg-gradient-to-b from-red-500 to-pink-400 text-white rounded-full shadow-lg font-bold text-2xl"
               disabled={yesPressed}
             >
-              Yes 💝
+              Yes
             </motion.button>
 
             {!yesPressed && (
@@ -116,7 +116,7 @@ function ValentineSection() {
                 onClick={handleNoClick}
                 className="px-12 py-3 bg-white border-2 border-pink-300 text-pink-800 rounded-full shadow-md font-bold text-2xl"
               >
-                No 💔
+                No
               </motion.button>
             )}
           </motion.div>
@@ -125,14 +125,24 @@ function ValentineSection() {
 
       <AnimatePresence>
         {yesPressed && (
-          <motion.p
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
-            className="absolute bottom-1/4 left-1/2 -translate-x-1/2 text-4xl font-bold text-transparent bg-gradient-to-b bg-clip-text from-red-500 to-pink-400"
-          >
-            I LOVE YOU BEBO
-          </motion.p>
+          <div className="absolute top-[75%] left-1/2 -translate-x-1/2 flex flex-col items-center gap-4">
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.5 }}
+              className="text-5xl font-bold text-transparent bg-gradient-to-b bg-clip-text from-red-500 to-pink-400"
+            >
+              I KNEW YOU WOULDN'T SAY NO BEBO
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 3 }}
+              className="text-2xl font-bold text-transparent bg-gradient-to-b bg-clip-text from-red-500 to-pink-400"
+            >
+              I LOVE YOU TOO HERE
+            </motion.p>
+          </div>
         )}
       </AnimatePresence>
     </motion.div>

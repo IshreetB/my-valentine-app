@@ -41,7 +41,7 @@ function TimelineModal({ memory, onClose }) {
             </svg>
           </button>
 
-          <div className="bg-white rounded-lg overflow-hidden shadow-2xl">
+          <div className="bg-white rounded-2xl overflow-hidden shadow-2xl">
             <div className="bg-white p-3 md:p-6 pb-12 md:pb-20 rounded-2xl">
               <div className="relative w-full max-h-[50vh] md:max-h-[60vh] aspect-square">
                 <img
@@ -50,13 +50,13 @@ function TimelineModal({ memory, onClose }) {
                   className="w-full h-full object-cover rounded-xl"
                 />
               </div>
-              <h3 className="mt-6 md:mt-8 text-lg md:text-2xl text-gray-600 font-medium italic text-center">
+              <h3 className="mt-6 md:mt-8 text-2xl md:text-2xl text-gray-600 font-medium italic text-center">
                 {memory.title}
               </h3>
               <p className="mt-2 text-sm md:text-base text-gray-600 italic text-center">
                 {memory.date}
               </p>
-              <p className="mt-4 text-sm md:text-base text-gray-600 italic text-center">
+              <p className="mt-4 text-sm md:text-base text-gray-600 text-center">
                 {memory.description}
               </p>
             </div>

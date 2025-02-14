@@ -16,55 +16,70 @@ function App() {
   const memories = [
     {
       id: 1,
-      image: "/path/to/image1.jpg",
+      image: "/images/1.jpg",
       title: "Our First (Official) Date",
       date: "April 21st, 2024",
       description:
-        "I was still in shock that the most beautiful girl in the world even wanted to go out with me. I was trying to do my best, though I had no idea what I was doing. The wind didn't help either, but in the end, we somehow had a good time (enough for you to see me again (lol)",
+        "I was still in shock how the most beautiful girl in the world even noticed me at all. \
+        I was trying to do my best here, though I had no idea what I was doing. The wind didn't \
+        help either, but in the end, we somehow had a good time (enough for you to see me again lol)",
     },
     {
       id: 2,
-      image: "/path/to/image2.jpg",
+      image: "/images/2.jpg",
       title: "",
       date: "May 15th, 2024",
       description:
-        "At this point I couldn't wait until the next time I'd see you again. Every adventure we went on felt like it was out of a movie. Even the smallest things like getting ice cream in the middle of nowhere was a dream come true",
+        "At this point I couldn't wait until the next time I saw you again. Every adventure we went \
+        on felt like it was straight out of a movie. Even the smallest things like getting ice cream in the middle \
+        of nowhere was a dream come true with you",
     },
     {
       id: 3,
-      image: "/path/to/image3.jpg",
+      image: "/images/3.jpg",
       title: "The Fanciest of Fancy Dinners",
       date: "June 10th, 2024",
       description:
-        "I know it was important for you feel like you're getting spoiled and I'm sorry it took that long, but I really did the best I could. You looked fantastic in that dress, I can't wait to see you in it again! Maybe not at that place though, the lamb was kind of cold 6/10",
+        "I know it was important for you to feel like you're getting spoiled and I'm sorry it took that long, \
+        but I really did the best I could. You looked fantastic in that dress, I can't wait to see you in \
+        it again! Maybe not at that place though, the lamb was kind of cold 6/10",
     },
     {
       id: 4,
-      image: "/path/to/image4.jpg",
+      image: "/images/4.jpg",
       title: "AHHHHHHHHHHH",
       date: "June 15th, 2024",
       description:
-        "This one was kind of far for me, but I'm happy you pushed yourself to come out with me. I know you don't like scary rides, you pushed through like the soldier you are. Just like every challenge in your life, you always find a way to push through. You were very brave, I'm so proud of you",
+        "This one was kind of for me, lol. I know you don't like scary rides babe, but it meant so much that\
+        you came with me anyways. I'm so proud of you for getting through it like the champ you are! Though,\
+        I shouldn't really be surprised. Every challenge I've seen you face, you've always been so strong\
+        and brave"
     },
     {
       id: 5,
-      image: "/path/to/image5.jpg",
+      image: "/images/uhaul.jpg",
       title: "ZOOOOOOOOM",
       date: "July 16th, 2024",
       description:
-        "This was honestly kind of crazy, I never drove that far before, especially not in a storm. Even though you were a wittle scared and I was a wittle tired, I took comfort in the fact I had you by my side. We picked each other up when the other was struggling, and I genuinely couldn't have done it without you",
+        "This was honestly kind of crazy, I never drove that far before, especially not in a \
+        storm. Even though you were a wittle scared and I was a wittle tired, I took comfort in \
+        the fact I had you by my side. We picked each other up when the other was struggling, and \
+        I genuinely couldn't have done it without you",
     },
     {
       id: 6,
-      image: "/path/to/image5.jpg",
+      image: "/images/5.jpg",
       title: "Say CHEEEEESEE",
       date: "July 19th, 2024",
       description:
-        "That whole Vancouver trip, you were really glowing. I rememeber there were times I couldn't take my eyes off you. Your pretty face and that beautiful smile made every day worth living. Maybe that trip wasn't the best, but seeing your smile made everything okay. I hope we can smiling as we go on more and more adventures together",
+        "That whole Vancouver trip, you were really glowing. I rememeber there were times I couldn't \
+        take my eyes off you. Your pretty face and that beautiful smile made every day worth living. \
+        Maybe that trip wasn't the best, but seeing your smile made everything okay. I hope we can \
+        smiling as we go on more and more adventures together",
     },
     {
       id: 7,
-      image: "/path/to/image5.jpg",
+      image: "/path/to/image6.jpg",
       title: "ZOOOOOOOOM",
       date: "July 16th, 2024",
       description:

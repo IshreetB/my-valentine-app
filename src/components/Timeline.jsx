@@ -39,9 +39,10 @@ function Timeline({ memories }) {
   return (
     <div className="relative container mx-auto p-8">
       <motion.h1
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 3 }}
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ delay: 0.8, duration: 1 }}
         className="text-5xl font-bold text-center text-transparent bg-gradient-to-b bg-clip-text from-red-500 to-pink-400 px-4 pt-8 pb-12"
       >
         Our Journey Together
@@ -53,7 +54,8 @@ function Timeline({ memories }) {
         whileInView={{ height: "78%" }}
         viewport={{ once: true }}
         transition={{
-          duration: 1,
+          delay: 1.8,
+          duration: 10,
           ease: "easeOut",
         }}
         className="absolute left-1/2 transform -translate-x-1/2 w-1 bg-red-200 top-32 bottom-32"

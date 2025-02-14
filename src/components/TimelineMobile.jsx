@@ -32,7 +32,7 @@ function TimelineMobile({ memories }) {
               onClick={() => setSelectedMemory(memory)}
               className="cursor-pointer w-full max-w-md"
             >
-              <p className="text-lg text-red-500 font-bold mb-4 text-center">
+              <p className="text-lg font-bold mb-4 text-center text-transparent bg-gradient-to-b bg-clip-text from-red-500 to-pink-400">
                 {memory.date}
               </p>
               <div className="bg-white p-4 pb-16 rounded-2xl shadow-xl">

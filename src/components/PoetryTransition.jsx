@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 function PoetryTransition() {
   const lines = [
-    "These moments we've gathered, a love built to last,",
+    "The love you've given me, will forever last,",
     "A journey through time, both future and past,",
-    "Each picture, a promise—forever's our thread,",
-    "So, there's really only one question left…",
+    "Each picture a memory, that I've fondly kept,",
+    "So, there really is, only one question left…",
   ];
 
   return (
