@@ -121,9 +121,6 @@ function ValentineSection() {
             )}
           </motion.div>
         )}
-      </AnimatePresence>
-
-      <AnimatePresence>
         {yesPressed && (
           <div className="absolute top-[75%] left-1/2 -translate-x-1/2 flex flex-col items-center gap-4">
             <motion.p
