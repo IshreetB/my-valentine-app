@@ -45,7 +45,7 @@ function Memories({ memories }) {
                 <h3 className="mt-10 text-2xl text-gray-600 font-medium italic text-center">
                   {memory.title}
                 </h3>
-                <p className="mt-4 text-gray-600 italic text-center line-clamp-2">
+                <p className="mt-4 text-gray-600 text-center line-clamp-2">
                   {memory.description}
                 </p>
               </div>

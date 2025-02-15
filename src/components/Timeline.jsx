@@ -101,7 +101,7 @@ function Timeline({ memories }) {
                   <h3 className="mt-10 text-xl md:text-2xl text-gray-600 font-medium italic">
                     {memory.title}
                   </h3>
-                  <p className="text-sm md:text-base text-gray-600 leading-snug line-clamp-2 italic">
+                  <p className="text-sm md:text-base text-gray-600 leading-snug line-clamp-2">
                     {memory.description}
                   </p>
                 </div>
@@ -189,7 +189,7 @@ function Timeline({ memories }) {
                 <h3 className="mt-10 text-xl md:text-2xl text-gray-600 font-medium italic">
                   Today
                 </h3>
-                <p className="text-sm md:text-base text-gray-600 leading-snug line-clamp-2 italic">
+                <p className="text-sm md:text-base text-gray-600 leading-snug line-clamp-2">
                   And that brings us to today. It's been a crazy journey, with a
                   lot of ups and downs, but we've stuck by each other the whole
                   ride. You've been my partner, my lover, my rock, and most

@@ -130,7 +130,7 @@ function ValentineSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
-              className="text-5xl font-bold text-transparent bg-gradient-to-b bg-clip-text from-red-500 to-pink-400"
+              className="text-2xl font-bold text-transparent bg-gradient-to-b bg-clip-text from-red-500 to-pink-400"
             >
               I KNEW YOU WOULDN'T SAY NO BEBO
             </motion.p>
